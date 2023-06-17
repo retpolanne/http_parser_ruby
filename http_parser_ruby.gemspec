@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
-  s.name = "http_parser.rb"
+  s.name = "http_parser_ruby"
   s.version = "0.8.0"
-  s.summary = "Simple callback-based HTTP request/response parser"
+  s.summary = "Simple callback-based HTTP request/response parser - without the .rb that breaks nix :)"
   s.description = "Ruby bindings to https://github.com/joyent/http-parser and https://github.com/http-parser/http-parser.java"
 
   s.authors = ["Marc-Andre Cournoyer", "Aman Gupta"]
